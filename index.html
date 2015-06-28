@@ -8,14 +8,7 @@
     <meta charset="utf-8">
     <title>510.io</title>
   <style>
-.container{
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    width: 100%;
-    max-width: 320px;
-}
+
 
 @font-face {
   font-family: 'AvenirNext-UltraLight';
@@ -2419,18 +2412,8 @@ RgLP) format('woff'), url('AvenirNext-Heavy.ttf')  format('truetype'), url('Aven
 
 body{
   overflow:hidden;
-   position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#942be1+0,c62be1+100 */
-background: #942be1; /* Old browsers */
-background: -moz-linear-gradient(top,  #942be1 0%, #c62be1 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#942be1), color-stop(100%,#c62be1)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #942be1 0%,#c62be1 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #942be1 0%,#c62be1 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #942be1 0%,#c62be1 100%); /* IE10+ */
+  height:100vh;
+  background: #942be1; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
 background: linear-gradient(to bottom,  #942be1 0%,#c62be1 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#942be1', endColorstr='#c62be1',GradientType=0 ); /* IE6-9 */
 
@@ -2614,7 +2597,9 @@ a:active {color:white;text-decoration:none;}
 </head>
   <body>
     
-    <div class="container">
+    <div class="container" style=" position: relative;
+      top: 50%;
+      transform: translateY(-50%);">
       
       
       <div class="row">
